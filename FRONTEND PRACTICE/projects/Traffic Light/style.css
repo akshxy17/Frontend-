@@ -1,0 +1,23 @@
+#outer{
+    border: 100px;
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.one{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#orange{
+    background-color: orange;
+}

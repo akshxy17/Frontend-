@@ -1,0 +1,133 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ /* desendeant  */
+.pin a {
+    color: black;
+    background-color: aquamarine;
+}
+
+/* multilevel styling */
+
+nav ul li {
+    color: darkmagenta;
+    background-color: rgb(128, 255, 0);
+}
+
+p + h3{
+    text-decoration: underline;
+}
+
+/* child cominators */
+
+span > button{
+    color:chartreuse;
+    background-color: black;
+}
+
+/* attribute selector */
+
+input [type="text"]{
+    color: red;
+}
+
+div [id="myid"]  {
+    color: crimson;
+}
+
+
+#myid{
+    color: crimson;
+}
+
+button:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+
+button:active{
+    color: darkcyan;
+    background-color: cornflowerblue;
+}
+
+#yes:checked + label {
+    color: red;
+}
+
+#no:checked + label {
+    color: red;
+}
+div:nth-last-of-type(n){
+    background-color: beige;
+}
+
+h1::first-letter{
+    color: red;
+}
+
+#fuck{
+    text-align: center;
+}
+
+p::first-line{
+    color: blue;
+}
+
+P::selection{
+    background-color: black;
+    color: rgb(225, 19, 194);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

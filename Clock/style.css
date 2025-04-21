@@ -1,0 +1,31 @@
+* {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1:hover {
+    color: rgb(108, 9, 246)
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    transition-delay: 10s;
+    background-color: rgb(108, 9, 246);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.5s;
+
+}
+p{
+    text-align: center;
+}
